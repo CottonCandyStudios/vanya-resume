@@ -1,0 +1,140 @@
+/*---
+Color Palette:
+
+#D9F0FF Azureish White
+#7BDFF2 Medium Sky Blue
+#0EB1D2 Bright Cerulean;
+#00FFCD Turquoise Blue
+#404E5C Outer Space
+#28536B Dark Slate Gray
+#274060 Japanese Indigo
+#0A1128 Rich Black
+#D33F49 English Vermillion
+#F46036 Portland Orange
+
+---*/
+
+
+/* Global Styles */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Cabin', Arial, sans-serif;
+  font-size: 14px;
+
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Spinnaker', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+
+  margin-top: 0;
+}
+
+a {
+  color: Orange;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content-wrap {
+  overflow: hidden;
+
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.col-narrow {
+  float: left;
+
+  width: 30%;
+  min-height: 175px;
+}
+
+.col-wide {
+  float: left;
+
+  width: 70%;
+  min-height: 175px;
+  padding-left: 30px;
+}
+
+/* Header & Footer */
+
+header, footer {
+  color: rgb(217, 240, 255);
+  background: rgb(10, 17, 40);
+}
+
+/* Header */
+
+header h1, header h2 {
+  margin: 0;
+
+  text-transform: uppercase;
+
+  color: #0eb1d2;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header h2 {
+  margin-top: 15px;
+
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+}
+
+/* Work */
+
+.work {
+  background: rgb(217, 240, 255);
+}
+
+/* Education */
+
+.education {
+  background: rgb(133, 162, 190);
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
+
+  float: right;
+
+  text-transform: uppercase;
+}
+
+.contact-info a {
+  display: inline-block;
+
+  padding: 12px;
+}
