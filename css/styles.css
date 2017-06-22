@@ -88,7 +88,7 @@ a:hover {
 .btn {
   color: white;
   text-decoration: none;
-  background-color: #D33F49;
+  background-color: rgb(210, 63, 73);
   padding: 10px;
   display: inline-block;
 }
@@ -112,7 +112,7 @@ nav {
 
   text-align: center;
 
-  background: #404E5C;
+  background: rgb(64, 78, 92);
 }
 
 nav a {
@@ -140,7 +140,7 @@ header h1, header h2 {
 
   text-transform: uppercase;
 
-  color: #0eb1d2;
+  color: rgb(14, 177, 210);
 }
 
 header h1 {
