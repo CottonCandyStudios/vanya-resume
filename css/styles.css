@@ -86,11 +86,14 @@ a:hover {
 }
 
 .btn {
-  color: white;
-  text-decoration: none;
-  background-color: rgb(210, 63, 73);
-  padding: 10px;
   display: inline-block;
+
+  padding: 10px;
+
+  text-decoration: none;
+
+  color: white;
+  background-color: rgb(210, 63, 73);
 }
 
 /* Header & Footer */
@@ -105,7 +108,9 @@ header, footer {
 
 nav {
   font-size: 0;
+
   position: fixed;
+  z-index: 100;
   top: 0;
 
   width: 100%;
@@ -131,8 +136,9 @@ nav a {
 /* Header */
 
 header {
-  padding-top: 50px;
   position: relative;
+
+  padding-top: 50px;
 }
 
 header h1, header h2 {
@@ -159,8 +165,8 @@ header p {
 
 .download {
   position: absolute;
-  bottom: 0;
   right: 0;
+  bottom: 0;
 }
 
 /* Work */
