@@ -10,7 +10,13 @@
 	</head>
 
 	<body>
-		<header>
+		<header id="about">
+			<nav class="nav">
+				<a href="#about">About</a>
+				<a href="#work">Work Experience</a>
+				<a href="#education">Education</a>
+				<a href="#contact">Contact</a>
+			</nav>
 			<div class="content-wrap">
 				<img class="profile-img col-narrow" src="images/personalPhoto.png" alt="Personal Photo">
 				<div class="col-wide">
@@ -20,38 +26,39 @@
 						opportunity I can get to learn and grow personally and professionally.</p>
 				</div>
 			</div>
+			<a href="files/Resume.pdf" class="btn download" download>Download PDF</a>
 		</header>
 
 		<main>
 			<!-- // Work Experience -->
-			<section class="work">
+			<section id="work" class="work">
 				<div class="content-wrap">
 					<h2>Work Experience</h2>
 
 					<!-- Job 1 Details -->
 					<div class="col-narrow">
 						<h3>Interpreter, Spanish-English; Mexico City</h3>
-						<p>Language Line Solutions &ndash; Human Quality</p>
+						<p class="uppercase">Language Line Solutions</p>
 						<p>2016 &ndash; 2017</p>
 					</div>
-					<div class="col-wide">
+					<div class="col-wide job-description">
 						<p>I worked as an Over-The-Phone interpreter for Customer Service at Language Line Solutions.</p>
 					</div>
 
 					<!-- Job 2 Details -->
 					<div class="col-narrow">
 						<h3>Tech Support &amp; Web Designer at Reponomy; Mexico City</h3>
-						<p>Reponomy &ndash; Owner</p>
+						<p class="uppercase">Reponomy &ndash; Owner</p>
 						<p>2005 &ndash; 2015</p>
 					</div>
-					<div class="col-wide">
+					<div class="col-wide job-description">
 						<p>Owner of a small Tech business at home called Reponomy, our services included Technical Support for Spanish and English speaking clients, Building and Repair of computing equipment, Web Design and Graphic Design services.</p>
 					</div>
 				</div>
 			</section>
 
 			<!-- // Education -->
-			<section class="education">
+			<section id="education" class="education">
 				<div class="content-wrap">
 					<h2>Education</h2>
 
@@ -69,7 +76,7 @@
 
 		<!-- // Footer & contact info -->
 		<footer>
-			<div class="content-wrap">
+			<div id="contact" class="content-wrap">
 				<h2>Let's Keep in Touch!</h2>
 
 				<!-- Social media and contact links. Add or remove any networks. -->

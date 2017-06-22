@@ -20,6 +20,7 @@ Color Palette:
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -45,6 +46,10 @@ h2 {
   margin-top: 0;
 }
 
+h3 {
+  margin: 0;
+}
+
 a {
   color: Orange;
 }
@@ -58,22 +63,34 @@ a:hover {
 
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px 50px;
 }
 
 .col-narrow {
   float: left;
 
   width: 30%;
-  min-height: 175px;
+  /*min-height: 175px;*/
 }
 
 .col-wide {
   float: left;
 
   width: 70%;
-  min-height: 175px;
+  min-height: 78px;
   padding-left: 30px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  background-color: #D33F49;
+  padding: 10px;
+  display: inline-block;
 }
 
 /* Header & Footer */
@@ -83,7 +100,40 @@ header, footer {
   background: rgb(10, 17, 40);
 }
 
+
+/* Nav */
+
+nav {
+  font-size: 0;
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+
+  text-align: center;
+
+  background: #404E5C;
+}
+
+nav a {
+  font-size: 16px;
+  font-weight: 700;
+
+  display: inline-block;
+
+  padding: 15px 20px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
 /* Header */
+
+header {
+  padding-top: 50px;
+  position: relative;
+}
 
 header h1, header h2 {
   margin: 0;
@@ -107,17 +157,37 @@ header p {
   text-align: center;
 }
 
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 /* Work */
+
+h3 ~ p {
+  margin: 0;
+}
 
 .work {
   background: rgb(217, 240, 255);
 }
+
+.job-description {
+  margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
 
 /* Education */
 
 .education {
   background: rgb(133, 162, 190);
 }
+
 
 /* Footer */
 
@@ -131,6 +201,10 @@ footer p {
   float: right;
 
   text-transform: uppercase;
+}
+
+p + h3 {
+  margin-top: 30px;
 }
 
 .contact-info a {
