@@ -14,7 +14,6 @@ Color Palette:
 
 ---*/
 
-
 /* Global Styles */
 
 html {
@@ -103,7 +102,6 @@ header, footer {
   background: rgb(10, 17, 40);
 }
 
-
 /* Nav */
 
 nav {
@@ -131,7 +129,6 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
 }
-
 
 /* Header */
 
@@ -187,13 +184,12 @@ h3 ~ p {
   margin-top: 0;
 }
 
-
 /* Education */
 
 .education {
-  background: rgb(133, 162, 190);
+  background: linear-gradient(rgba(133, 162, 190, 0.8), rgba(133, 162, 190, 0.5)), url(../images/jezael-melgoza-250810.jpg) no-repeat fixed;
+  background-size: cover;
 }
-
 
 /* Footer */
 
