@@ -21,7 +21,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -32,7 +34,8 @@ body {
   margin: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Spinnaker', sans-serif;
 }
 
@@ -50,6 +53,10 @@ h2 {
 
 h3 {
   margin: 0;
+}
+
+ul {
+  font-size: 12px;
 }
 
 a {
@@ -86,7 +93,8 @@ a:hover {
 
 /* Header & Footer */
 
-header, footer {
+header,
+footer {
   color: rgb(217, 240, 255);
   background: rgb(10, 17, 40);
 }
@@ -129,7 +137,8 @@ header {
   padding-top: 50px;
 }
 
-header h1, header h2 {
+header h1,
+header h2 {
   margin: 0;
 
   text-transform: uppercase;
@@ -160,7 +169,7 @@ header p {
 
 /* Work */
 
-h3 ~ p {
+h3~p {
   margin: 0;
 }
 
@@ -200,7 +209,7 @@ footer p {
   text-transform: uppercase;
 }
 
-p + h3 {
+p+h3 {
   margin-top: 30px;
 }
 
@@ -224,6 +233,7 @@ footer .content-wrap {
     width: 30%;
     /*min-height: 175px;*/
   }
+
   .col-wide {
     float: left;
 
@@ -231,6 +241,7 @@ footer .content-wrap {
     min-height: 78px;
     padding-left: 30px;
   }
+
   footer p {
     float: right;
   }
@@ -240,6 +251,7 @@ footer .content-wrap {
   header {
     text-align: center;
   }
+
   .profile-img {
     width: 200px;
   }
@@ -249,6 +261,7 @@ footer .content-wrap {
   h1 {
     font-size: 32px;
   }
+
   h2 {
     font-size: 18px;
   }
@@ -258,6 +271,7 @@ footer .content-wrap {
   nav a {
     padding: 8px 12px;
   }
+
   .content-wrap {
     padding-top: 40px;
   }
