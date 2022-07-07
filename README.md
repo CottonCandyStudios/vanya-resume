@@ -1,2 +1,2 @@
 # resume
-Resume for Gabriel Yepez Xelhuantzi
+Resume for Vanya Yepez
