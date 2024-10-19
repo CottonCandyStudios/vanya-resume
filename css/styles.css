@@ -41,13 +41,11 @@ h2 {
 
 h1 {
   font-size: 60px;
-
   padding-top: 12px;
 }
 
 h2 {
   font-size: 30px;
-
   margin-top: 0;
 }
 
@@ -69,7 +67,6 @@ a:hover {
 
 .content-wrap {
   overflow: hidden;
-
   max-width: 950px;
   margin: 0 auto;
   padding: 60px 50px;
@@ -82,38 +79,29 @@ a:hover {
 .btn {
   display: inline-block;
   text-align: center;
-  
+
   padding: 10px;
-
   text-decoration: none;
-
   color: white;
   background-color: rgb(210, 63, 73);
 }
 
 
 /* Header & Footer */
-
 header,
 footer {
   color: rgb(217, 240, 255);
   background: rgb(10, 17, 40);
 }
 
-
 /* Nav */
-
 nav {
   font-size: 0;
-
   position: fixed;
   z-index: 100;
   top: 0;
-
   width: 100%;
-
   text-align: center;
-
   background: rgb(64, 78, 92);
 }
 
@@ -128,7 +116,6 @@ nav a {
 
 
 /* Header */
-
 header {
   position: relative;
 
@@ -164,9 +151,7 @@ header p {
   bottom: 0;
 }
 
-
 /* Work */
-
 h3~p {
   margin: 0;
 }
@@ -185,7 +170,6 @@ h3~p {
 
 
 /* Education */
-
 .education {
   background: linear-gradient(rgba(133, 162, 190, .8), rgba(133, 162, 190, 1)), url(../images/jezael-melgoza-250810.jpg) no-repeat fixed;
   background-size: cover;
