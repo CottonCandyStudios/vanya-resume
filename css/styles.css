@@ -1,7 +1,6 @@
 /*---
 Color Palette:
-
-#D9F0FF Azureish White
+#D9F0FF rgb(217, 240, 255) - Azureish White
 #7BDFF2 Medium Sky Blue
 #0EB1D2 Bright Cerulean;
 #00FFCD Turquoise Blue
@@ -11,7 +10,6 @@ Color Palette:
 #0A1128 Rich Black
 #D33F49 English Vermillion
 #F46036 Portland Orange
-
 ---*/
 
 
@@ -30,7 +28,6 @@ html {
 body {
   font-family: 'Cabin', Arial, sans-serif;
   font-size: 14px;
-
   margin: 0;
 }
 
@@ -79,7 +76,6 @@ a:hover {
 .btn {
   display: inline-block;
   text-align: center;
-
   padding: 10px;
   text-decoration: none;
   color: white;
@@ -107,7 +103,6 @@ nav {
 
 nav a {
   font-size: 16px;
-  font-weight: 700;
   display: inline-block;
   padding: 15px 20px;
   text-decoration: none;
@@ -118,16 +113,13 @@ nav a {
 /* Header */
 header {
   position: relative;
-
   padding-top: 50px;
 }
 
 header h1,
 header h2 {
   margin: 0;
-
   text-transform: uppercase;
-
   color: rgb(14, 177, 210);
 }
 
@@ -136,19 +128,20 @@ header h1 {
 }
 
 header h2 {
-  margin-top: 15px;
-
+  margin: 15px 0px;
   text-align: center;
 }
 
 header p {
   text-align: center;
+  margin: 1% 0;
 }
 
 .download {
   position: absolute;
   right: 0;
   bottom: 0;
+  width: 111px;
 }
 
 /* Work */
@@ -158,6 +151,10 @@ h3~p {
 
 .work {
   background: rgb(217, 240, 255);
+}
+
+.work .content-wrap {
+  padding: 40px 50px 18px 50px;
 }
 
 .job-description {
@@ -184,10 +181,8 @@ footer {
 
 footer p {
   font-size: 12px;
-
   margin-top: 32px;
   margin-bottom: 0;
-
   text-transform: uppercase;
 }
 
@@ -201,28 +196,24 @@ footer .content-wrap {
 
 .contact-info a {
   display: inline-block;
-
+  color: orange;
   padding: 12px;
 }
 
-.separator {
-  color: white;
-}
-
-
+/* * {
+  transition: all 300ms ease-in;
+} */
 /* Media Queries */
 
 @media (min-width: 900px) {
   .col-narrow {
     float: left;
-
     width: 30%;
     /*min-height: 175px;*/
   }
 
   .col-wide {
     float: left;
-
     width: 70%;
     min-height: 78px;
     padding-left: 30px;
@@ -238,8 +229,24 @@ footer .content-wrap {
     text-align: center;
   }
 
+  header p {
+    margin: 4%;
+    padding: 0;
+  }
+
+  nav a {
+    padding: 15px 2%;
+  }
+
   .profile-img {
     width: 200px;
+  }
+
+  .download {
+    width: 175px;
+  }
+  p {
+    padding: 2% 0;
   }
 }
 
@@ -253,12 +260,13 @@ footer .content-wrap {
   }
 }
 
-@media (max-width: 517px) {
+/* @media (max-width: 517px) {
   nav a {
     padding: 8px 12px;
+    transition: padding-top 300ms ease-in;
   }
 
   .content-wrap {
     padding-top: 40px;
   }
-}
+} */
