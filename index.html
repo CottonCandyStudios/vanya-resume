@@ -13,31 +13,35 @@
 <body>
 	<header id="about">
 		<nav class="nav">
-			<a class="scroll-link" href="#about">About</a>
-			<a class="scroll-link" href="#work">Work Experience</a>
-			<a class="scroll-link" href="#education">Education</a>
-			<a class="scroll-link" href="#contact">Contact</a>
+			<ul>
+				<li class="active"><a href="#about">About</a></li>
+				<li><a href="#work">Work Experience</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
 		</nav>
-		<!-- // Jumbotron -->
-		<div class="content-wrap">
-			<img class="profile-img col-narrow" src="images/personalPhoto.png" alt="Personal Photo">
-			<div class="col-wide">
-				<h1>Vanya Yepez <br>Xelhuantzi</h1>
-				<h2>Web Developer, Freelancer, Learner</h2>
-				<p>Web Developer focused on creating rich user experiences with sleek graphics and clean code.</p>
-				<p>Freelancer emphazising goal driven development to achieve results.</p>
-				<p>Long-Life Learner always ready to self-actualize and veer direction.</p>
-			</div>
-		</div>
-		<a href="files/Resume.pdf" class="btn download" download>Download Resume in PDF</a>
 	</header>
 
 	<main>
+		<!-- // Jumbotron -->
+		<section id="about" class="about cd-section">
+			<div class="content-wrap">
+				<img class="profile-img col-narrow" src="images/personalPhoto.png" alt="Personal Photo">
+				<div class="col-wide">
+					<h1>Vanya Yepez <br>Xelhuantzi</h1>
+					<h2>Web Developer, Freelancer, Learner</h2>
+					<p>Web Developer focused on creating rich user experiences with sleek graphics and clean code.</p>
+					<p>Freelancer emphazising goal driven development to achieve results.</p>
+					<p>Long-Life Learner always ready to self-actualize and veer direction.</p>
+				</div>
+			</div>
+			<a href="files/Resume.pdf" class="btn download" download>Download Resume in PDF</a>
+		</section>
 		<!-- // Work Experience -->
-		<section id="work" class="work">
+		<section id="work" class="work cd-section">
 			<div class="content-wrap">
 				<h2>Work Experience</h2>
-				
+
 				<!-- Job 1 Details -->
 				<div class="col-narrow">
 					<h3>Web Content Analyst; Mexico City</h3>
@@ -106,7 +110,7 @@
 		</section>
 
 		<!-- // Education -->
-		<section id="education" class="education">
+		<section id="education" class="education cd-section">
 			<div class="content-wrap">
 				<h2>Education</h2>
 
@@ -123,7 +127,7 @@
 
 	<!-- // Footer & contact info -->
 	<footer>
-		<div id="contact" class="content-wrap">
+		<div id="contact" class="content-wrap cd-section">
 			<h2>Let's Keep in Touch!</h2>
 
 			<!-- Social media and contact links. -->

@@ -14,7 +14,6 @@ Color Palette:
 
 
 /* Global Styles */
-
 html {
   box-sizing: border-box;
 }
@@ -27,7 +26,7 @@ html {
 
 body {
   font-family: 'Cabin', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
 }
 
@@ -51,7 +50,7 @@ h3 {
 }
 
 ul {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 a {
@@ -82,8 +81,11 @@ a:hover {
   background-color: rgb(210, 63, 73);
 }
 
-
 /* Header & Footer */
+header {
+  padding-top: 50px;
+}
+
 header,
 footer {
   color: rgb(217, 240, 255);
@@ -101,38 +103,58 @@ nav {
   background: rgb(64, 78, 92);
 }
 
-nav a {
-  font-size: 16px;
+nav ul {
+  list-style-type: none;
+  padding: unset;
+  margin: unset;
+}
+
+nav li {
   display: inline-block;
   padding: 15px 20px;
+}
+
+li.active {
+  background: #dcefff;
+}
+
+li.active a {
+  color: black;
+}
+
+nav a {
+  font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
+
+  height: 100%;
+  width: 100%;
 }
 
-
-/* Header */
-header {
+/* About */
+.about {
   position: relative;
-  padding-top: 50px;
+  color: rgb(217, 240, 255);
+  background: rgb(10, 17, 40);
 }
 
-header h1,
-header h2 {
+.about h1,
+.about h2 {
   margin: 0;
   text-transform: uppercase;
   color: rgb(14, 177, 210);
 }
 
-header h1 {
+.about h1 {
   text-align: center;
 }
 
-header h2 {
+.about h2 {
   margin: 15px 0px;
   text-align: center;
 }
 
-header p {
+.about p {
   text-align: center;
   margin: 1% 0;
 }
@@ -141,7 +163,7 @@ header p {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 111px;
+  width: 125px;
 }
 
 /* Work */
@@ -165,16 +187,13 @@ h3~p {
   margin-top: 0;
 }
 
-
 /* Education */
 .education {
   background: linear-gradient(rgba(133, 162, 190, .8), rgba(133, 162, 190, 1)), url(../images/jezael-melgoza-250810.jpg) no-repeat fixed;
   background-size: cover;
 }
 
-
 /* Footer */
-
 footer {
   text-align: center;
 }
@@ -200,11 +219,7 @@ footer .content-wrap {
   padding: 12px;
 }
 
-/* * {
-  transition: all 300ms ease-in;
-} */
 /* Media Queries */
-
 @media (min-width: 900px) {
   .col-narrow {
     float: left;
@@ -225,16 +240,16 @@ footer .content-wrap {
 }
 
 @media (max-width: 899px) {
-  header {
+  .about {
     text-align: center;
   }
 
-  header p {
+  .about p {
     margin: 4%;
     padding: 0;
   }
 
-  nav a {
+  nav li {
     padding: 15px 2%;
   }
 
@@ -243,8 +258,9 @@ footer .content-wrap {
   }
 
   .download {
-    width: 175px;
+    width: 200px;
   }
+
   p {
     padding: 2% 0;
   }
@@ -258,15 +274,9 @@ footer .content-wrap {
   h2 {
     font-size: 18px;
   }
+
+  .work h2,
+  .education h2 {
+    font-size: 25px;
+  }
 }
-
-/* @media (max-width: 517px) {
-  nav a {
-    padding: 8px 12px;
-    transition: padding-top 300ms ease-in;
-  }
-
-  .content-wrap {
-    padding-top: 40px;
-  }
-} */
