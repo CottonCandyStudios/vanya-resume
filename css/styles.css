@@ -12,7 +12,6 @@ Color Palette:
 #F46036 Portland Orange
 ---*/
 
-
 /* Global Styles */
 html {
   box-sizing: border-box;
@@ -150,7 +149,7 @@ nav a {
 }
 
 .about h2 {
-  margin: 15px 0px;
+  margin: 15px 0;
   text-align: center;
 }
 
